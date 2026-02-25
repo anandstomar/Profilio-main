@@ -108,7 +108,7 @@ export default function EducationSection() {
           <ul className="space-y-3">
             <li className="flex items-center gap-2">
               <span className="h-2 w-2 rounded-full bg-yellow-500"></span>
-              <span>Solved 100+ Coding Problems on Various Platforms like LeetCode, Codechef, GFG, Codeforce</span>
+              <span>Solved 250+ Coding Problems on Various Platforms like LeetCode, Codechef, GFG, Codeforce</span>
             </li>
             <li className="flex items-center gap-2">
               <span className="h-2 w-2 rounded-full bg-rose-500"></span>

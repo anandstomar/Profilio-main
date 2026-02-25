@@ -3,7 +3,8 @@
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { FaReact, FaNodeJs, FaDocker, FaGithub, FaAws, FaJava, FaPython, FaRust, FaHtml5, FaCss3Alt, FaGitAlt } from "react-icons/fa";
-import { SiTypescript, SiJavascript, SiTailwindcss, SiRedux, SiMongodb, SiPostgresql, SiExpress, SiNextdotjs, SiGraphql, SiRedis, SiKubernetes, SiGo, SiFlask, SiDocker, SiCplusplus, SiSolidity, SiFastapi, SiSpringboot, SiNestjs, SiMysql, SiFirebase, SiApachekafka, SiJenkins, SiTerraform, SiGitlab, SiPostman, SiOpenai } from "react-icons/si";
+import { SiTypescript, SiJavascript, SiTailwindcss, SiRedux, SiMongodb, SiPostgresql, SiExpress, SiNextdotjs, SiGraphql, SiRedis, SiKubernetes, SiGo, SiFlask, SiDocker, SiCplusplus, SiSolidity, SiFastapi, SiSpringboot, SiNestjs, SiMysql, SiFirebase, SiApachekafka, SiJenkins, SiTerraform, SiGitlab, SiPostman, SiOpenai, SiLangchain } from "react-icons/si";
+import { DiRedis } from "react-icons/di";
 
 // Define the skills with icons and categories based on your resume
 const skills = [
@@ -35,7 +36,7 @@ const skills = [
     { name: "MongoDB", icon: <SiMongodb className="mr-1 h-4 w-4" /> },
     { name: "PostgreSQL", icon: <SiPostgresql className="mr-1 h-4 w-4" /> },
     { name: "MySQL", icon: <SiMysql className="mr-1 h-4 w-4" /> },
-    { name: "Redis", icon: <SiRedis className="mr-1 h-4 w-4" /> },
+    { name: "Redis", icon: <DiRedis className="mr-1 h-4 w-4" /> },
     { name: "GraphQL", icon: <SiGraphql className="mr-1 h-4 w-4" /> },
     { name: "Firebase", icon: <SiFirebase className="mr-1 h-4 w-4" /> },
   ]},
@@ -49,8 +50,8 @@ const skills = [
     { name: "ArgoCD", icon: <FaGitAlt className="mr-1 h-4 w-4" /> },
   ]},
   { category: "AI & Tools", items: [
-    { name: "LangChain", icon: <SiOpenai className="mr-1 h-4 w-4" /> },
-    { name: "GenAI", icon: <SiOpenai className="mr-1 h-4 w-4" /> },
+    { name: "LangChain & Langgraph", icon: <SiLangchain className="mr-1 h-4 w-4" /> },
+    { name: "GenAI & AgenticAI", icon: <SiOpenai className="mr-1 h-4 w-4" /> },
     { name: "Kafka", icon: <SiApachekafka className="mr-1 h-4 w-4" /> },
     { name: "Postman", icon: <SiPostman className="mr-1 h-4 w-4" /> },
     { name: "Git", icon: <FaGitAlt className="mr-1 h-4 w-4" /> },
