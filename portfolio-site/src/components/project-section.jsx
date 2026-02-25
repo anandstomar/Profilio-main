@@ -102,11 +102,11 @@ export default function ProjectsSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Card className="h-full flex flex-col overflow-hidden hover:shadow-lg transition-all duration-300 border-t-4 hover:border-primary">
+              <Card className="h-full flex flex-col overflow-hidden hover:shadow-lg transition-all duration-300 border-t-3 hover:border-primary">
                 {/* USING STANDARD IMG TAG FOR RELIABILITY 
                    This bypasses Next.js optimization issues to ensure the image simply loads.
                 */}
-                <div className="w-full h-48 bg-muted overflow-hidden">
+                <div className="w-full h-45 bg-muted overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
