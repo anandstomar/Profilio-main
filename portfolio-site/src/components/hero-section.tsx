@@ -26,7 +26,7 @@ export default function HeroSection() {
 
             <div className="flex gap-4">
               <Button asChild className="gap-2">
-                <a href="/resume.pdf" download="Anand_Singh_Tomar_Resume.pdf">
+                <a href="/resume2.pdf" download="Anand_Singh_Tomar_Resume.pdf">
                   <Download className="h-4 w-4" />
                   Download Resume
                 </a>
