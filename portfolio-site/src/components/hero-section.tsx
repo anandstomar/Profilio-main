@@ -35,19 +35,19 @@ export default function HeroSection() {
           </motion.div>
 
           {/* Profile Image */}
-          <motion.div
+         <motion.div
             className="shrink-0"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <Avatar className="h-40 w-40 border-4 border-primary/10">
+            <Avatar className="h-44 w-44 border-4 border-primary/10">
               <div className="bg-gradient-to-br from-primary/80 to-primary/30 h-full w-full flex items-center justify-center text-4xl font-bold text-white">
-                <img src="/profile.jpeg" alt="Anand Singh Tomar" className="h-full w-full object-cover rounded-full" />
+                <img src="/profile2.jpeg" alt="Anand Singh Tomar" className="h-full w-full object-cover rounded-full scale-150 translate-y-1" />
               </div>
             </Avatar>
           </motion.div>
-        </div>
+        </div>  
 
         {/* About Text */}
         <motion.div
